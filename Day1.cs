@@ -11,6 +11,7 @@ namespace AdventOfCode2022
   {
     public void Run()
     {
+      Console.WriteLine("DAY 1----------------------------------------");
       List<int> elfCals = new List<int>();
       int curCalCount = 0;
       string[] lines = System.IO.File.ReadAllLines(InputFilePath);
@@ -26,7 +27,7 @@ namespace AdventOfCode2022
           curCalCount = 0;
         }
       }
-
+      
       int bestElf = elfCals.Max();
       Console.WriteLine($"Best Elf: {bestElf}");
       elfCals.Remove(bestElf);
@@ -41,6 +42,7 @@ namespace AdventOfCode2022
 
       int totalElfs = bestElf + secondBestElf + thirdBestElf;
       Console.WriteLine($"Total Cals: {totalElfs}");
+      Console.WriteLine("---------------------------------------------");
     }
     public string InputFilePath { get; set; } = @"C:\Users\Cameron Cronkhite\OneDrive\git\AdventOfCode2022\day1input.txt";
   }
