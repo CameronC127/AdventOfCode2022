@@ -121,6 +121,6 @@ namespace AdventOfCode2022
       Console.WriteLine("---------------------------------------------");
     }
 
-    public string InputFilePath { get; set; } = @"C:\Users\Cameron Cronkhite\OneDrive\git\AdventOfCode2022\day2input.txt";
+    public string InputFilePath { get; set; } = @"C:\Users\Cameron Cronkhite\OneDrive\git\AdventOfCode2022\inputs\day2input.txt";
   }
 }
