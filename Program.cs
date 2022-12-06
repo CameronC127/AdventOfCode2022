@@ -10,3 +10,6 @@ day2.Run();
 
 Day3 day3 = new Day3();
 day3.Run();
+
+Day4 day4 = new Day4();
+day4.Run();
