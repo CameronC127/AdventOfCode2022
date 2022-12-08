@@ -13,3 +13,6 @@ day3.Run();
 
 Day4 day4 = new Day4();
 day4.Run();
+
+Day5 day5 = new Day5();
+day5.Run();
